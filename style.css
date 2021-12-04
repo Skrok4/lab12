@@ -23,7 +23,7 @@ html, body{
    
     padding: 1rem;
     position: relative;
-    background: linear-gradient(to right, red, purple);
+    background: linear-gradient(to right, rgb(39, 26, 116), purple);
     padding: 3px;
   }
   .module-border-wrap::before,
@@ -81,7 +81,8 @@ html, body{
 #words{
     transition: transform 0.6s;
 	letter-spacing: 3px;
-	font-family: 'Press Start 2P', cursive;
+	font-family: 'Raleway';
+    font-weight: bold;
 	font-size: 30px;
     margin: 10px 0 30px 10px;
     text-shadow: 0 -1px rgba(0,0,0,.1);
